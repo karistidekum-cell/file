@@ -1,0 +1,38 @@
+.quiz-container a {
+list-style: none;
+text-decoration: none;
+}
+
+h1 {
+    color: white;
+    background-color: rgb(0, 102, 255);
+    margin-bottom: 5rem;
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+.title{
+    height: 7rem;
+}
+ 
+
+ button:hover{
+   color: white;
+    background-color: rgb(12, 236, 12); 
+ }
+
+ button {
+    border: 0px;
+ }
+
+ .quiz-container:hover .title h1{
+    
+     overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transform: scale(1.05);
+    object-fit: cover;
+    transition: transform 1.5s;
+ }
+ body{
+    background-color: black;
+ }
